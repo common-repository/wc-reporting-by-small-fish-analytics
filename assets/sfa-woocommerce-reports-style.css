@@ -1,0 +1,120 @@
+#sfa_charts {
+	width: 70%;
+	float: left;
+}
+
+#sfa_notices {
+	width: 25%;
+	float: right;
+	padding: 1em;
+}
+
+#sfa_wrapper {
+	padding: 2em 1em 2em 1em;
+}
+
+.sfa_chart_container {
+	width: 48%;
+	height: 250px;
+	float: left;
+}
+
+.sfa_chart_container,
+#sfa_notices {
+	background-color: #FFF;
+	-webkit-border-radius: 5px 5px 0px 0px;
+	border-radius: 5px 5px 0px 0px;
+	-webkit-box-shadow: 1px 1px 1px 1px #ddd;
+	box-shadow: 1px 1px 1px 1px #ddd;
+	margin: 0.5em;
+}
+
+.sfa_chart {
+	height: 150px;
+	margin-bottom: 3em;
+}
+
+.sfa_actual_chart {
+	height: 70%;
+	background-color:;
+}
+
+.sfa_chart_title {
+	font-size: 1em;
+}
+
+.sfa_chart_value {
+	font-size: 1.75em;
+	margin-bottom: 0.25em;
+}
+
+.sfa_chart_title_and_value {
+	float: left;
+}
+
+.sfa_chart_delta_increase {
+	float: right;
+	color: Green;
+	font-size: 1.75em;
+}
+
+.sfa_chart_delta_descrease {
+	float: right;
+	color: Red;
+	font-size: 1.75em;
+}
+
+.sfa_chart_heading {
+	height: 25%;
+	background-color: #FFF;
+	padding: 0.5em;
+}
+
+.sfa_ticker_heading {
+	font-size: 1.75em;
+	margin-bottom: 0.5em;
+}
+
+.sfa_chart_heading_title {
+	float: left;
+}
+
+.sfa_chart_heading_value {
+	margin-top: 0.2em;
+	float: right;
+}
+
+.sfa_clear {
+	clear: both;
+}
+
+.sfa_ticker_row {
+	height: 2.5em;
+	padding-right: 1em;
+}
+
+.sfa_ticker_row td a {
+	color: rgba(35,40,45,1);
+	text-decoration: none;
+} 
+
+.sfa_order_refund {
+	background-color: Red;
+}
+
+.sfa_order_complete {
+	background-color: Green;
+}
+
+.sfa_order_refund,
+.sfa_order_complete {
+	color: #FFF;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-top: 0.1em;
+	padding-bottom: 0.1em;
+} 
+
+.clear {
+	clear: both;
+}
